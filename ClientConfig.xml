@@ -1,0 +1,5 @@
+<ClientConfig>
+	<GameClient name="Stateful Stor Julekalendar WLA PoC" clientCode="mobile" technology="HTML" height="600" width="800" meterheight="0" meterwidth="10" gameFolder="StatefulStorJulekalendarPOC" enableFreeSpin="N" clientversion="1.0" gameId="300-9020-0" />
+	<GameClient name="Stateful Stor Julekalendar WLA PoC" clientCode="tablet" technology="HTML" height="600" width="800" meterheight="0" meterwidth="10" gameFolder="StatefulStorJulekalendarPOC" enableFreeSpin="N" clientversion="1.0" gameId="300-9020-0" />
+	<GameClient name="Stateful Stor Julekalendar WLA PoC" clientCode="desktop" technology="HTML" height="600" width="800" meterheight="0" meterwidth="10" gameFolder="StatefulStorJulekalendarPOC" enableFreeSpin="N" clientversion="1.0" gameId="300-9020-0" />
+</ClientConfig>

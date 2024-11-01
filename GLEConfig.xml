@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<family code="9020" desc="Lottery Game" studio="interactive" organizationName="Interactive">
+    <!-- -  For spot supported games: spots are colon separated string like 1:2:3:4:5.Otherwise left blank -->
+    <game name="Stateful Stor Julekalendar WLA PoC" version="1.0.0" gameengineversion="2" gamelogicversion="1.0"
+          number="0"
+          jackpotid=""
+          gametype="L"
+          merchandisePrize="N"
+          stateful="Y"
+          loadprevstate="N"
+          numberGenerator="RNG"
+          betMultipliers="10000"
+          spots=""
+          productId="1"
+          gamegroup="eGames"
+          languages="en,en_US,nb_NO"
+          skbPlatformVersion="1.4.0">
+        <!-- NT -->
+        <paymodel modelid="300-9020-001"  revealId="9020" revealVersionId="9020"
+                  confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                  mincoins="0" cointhreshold="0"
+                  name="Stateful Stor Julekalendar WLA PoC : 300-9020-001"
+                  hibethold="35.06" lobethold="26.22"
+                  hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="1000"/>
+
+        <paymodelConfig modelid="300-9020-001" clienttype="HTML" configcode="IXML"/>
+        <paymodelConfig modelid="300-9020-001" clienttype="HTML" configcode="PHLP"/>    
+
+        <denom currencycode="EUR" amount="0.01"/>
+        <denom currencycode="FPY" amount="0.01,1.00"/>
+        <denom currencycode="FUN" amount="1.00,10.00"/>
+        <denom currencycode="GBP" amount="0.01"/>
+        <denom currencycode="NOK" amount="0.01"/>
+        <denom currencycode="USD" amount="0.01,0.02"/>
+    </game>
+</family>
